@@ -1,0 +1,52 @@
+<html>
+     
+	 <head> 
+	  
+   		  <title>JQuery</title>
+	      <script src="jquery-3.5.1.min.js"></script>
+		   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+	      
+		<link rel="stylesheet" type="text/css" href="codeplayer.css" >
+	 </head>
+	   
+	   
+	   
+	   
+	   <body>
+	       <div id="header">
+		        <div id="logo">
+				     TswPlayer
+				</div>
+				<div id="buttonContainer">
+				   <div class="togglebutton active" id ="html">HTML</div>
+				   
+				   <div class="togglebutton" id="css">CSS</div>
+				   
+				   <div class="togglebutton" id="javascript">Javascript</div>
+				   
+				   <div class="togglebutton active" id="output">Output</div>
+				  
+				</div>
+	   
+	        </div>
+			
+			
+			
+			<div id="bodyContainer">
+			 
+			       <textarea id="htmlpanel" class="panel"><p id="paragraph">Hello World!</p></textarea>
+				   
+				    <textarea id="csspanel" class="panel hidden">p {color:red;}</textarea>
+					
+					<textarea id="javascriptpanel" class="panel hidden">document.getElementById("paragraph").innerHTML="Hello World!";</textarea>
+				   
+				   <iframe id="outputpanel" class="panel"></iframe>
+				   
+			</div>
+	     
+      <script src="codeplayer.js"></script>
+	   
+	   </body>
+	   
+
+</html>
